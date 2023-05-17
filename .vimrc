@@ -18,6 +18,8 @@ let mapleader=" "
 noremap <esc><CR> :nohlsearch<CR>
 map <C-y> :redo<CR>
 
+set vb t_vb=
+
 noremap R :source .vimrc<CR>
 map tu :set splitbelow<CR>:split<CR>:res +10<CR>:term<CR>
 map nr :set splitright<CR>:vsplit<CR>
@@ -102,7 +104,7 @@ autocmd WinEnter * silent! unmap <LEADER>ig
 
 
 " coc.nvim
-
+let g:coc_disable_startup_warning = 1
 let g:coc_global_extensions = ['coc-json', 'coc-vimlsp', 'coc-python', 'coc-tsserver', 'coc-prettier', 'coc-python', 'coc-pyright', 'coc-snippets', 'coc-clangd']
 set hidden
 set updatetime=100
