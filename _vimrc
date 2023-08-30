@@ -24,7 +24,7 @@ noremap <esc><CR> :nohlsearch<CR>
 map <C-y> :redo<CR>
 
 noremap R :source .vimrc<CR>
-map tu :set splitbelow<CR>:split<CR>:res +10<CR>:term<CR> 
+noremap tu :vert term<CR>
 map nr :set splitright<CR>:vsplit<CR>
 map nl :set nosplitright<CR>:vsplit<CR>
 map nd :set splitbelow<CR>:split<CR>
