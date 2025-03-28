@@ -1,0 +1,7 @@
+exec "nohlsearch"
+noremap // y/&lt;c-r&gt;"&lt;cr&gt;
+noremap = nzz
+noremap - Nzz
+let mapleader=" "
+noremap &lt;esc&gt;&lt;CR&gt; :nohlsearch&lt;CR&gt;
+map &lt;C-y&gt; :redo&lt;CR&gt;

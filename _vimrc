@@ -1,9 +1,5 @@
 map rc :e D:\softwares\Vim\_vimrc
         
-
-
-
-
 syntax on
 set number
 set relativenumber
